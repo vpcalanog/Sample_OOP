@@ -1,14 +1,12 @@
-﻿namespace SampleModels
+﻿using static SampleModels.PersonModel;
+
+namespace SampleModels
 {
     public class StudentModel
     {
-        public class Student
+        public class Student : Person
         {
-            public int Id { get; set; }
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
             public string Course { get; set; }
         }
-
     }
 }
